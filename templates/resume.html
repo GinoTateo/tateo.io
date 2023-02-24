@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Gino Tateo's Resume”">
+    <meta name="author" content="Gino Tateo">
+    <title>Resume</title>
+
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename= 'css/main.css') }}">
+    <link rel="stylesheet" media="print" href="{{ url_for('static', filename= 'css/print.css') }}">
+    <link rel="stylesheet" href="https://use.typekit.net/snm1pqg.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename= 'favicon-2.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename= 'favicon.ico') }}">
+</head>
+
+<body class="landing">
+    <div class="container">
+        <nav class="nav-main "><a id="back_button" href="/">Back</a><a id="pdf_button"
+                href="{{ url_for('static', filename= 'Gino-Tateo-Resume-V7.pdf') }}">PDF</a><a id="pdf_button"
+                href="{{ url_for('static', filename= 'Gino-Tateo-Resume-V7.docx') }}">Download</a></nav>
+        <header class="hero">
+            <h1>Gino Tateo</h1>
+            <p>Software Engineer</p><small>★ ★ ★</small>
+        </header>
+    </div>
+    <div class="container">
+        <div class="resume" id="food">
+            <div class="resume-group">
+                <section class="callout callout-style-4" id="work">
+                    <h3>Work</h3>
+                    <ul class="resume-list">
+                        <li class="resume-item"><span class="name">Vacation Relief Route Sales Representative</span><span
+                                class="episode">Jun 2022</span><span class="description"> Peet's Coffee & Tea
+                                <ul>
+                                    <li>
+                                        • Established and maintained strong customer relationships to effectively
+                                        communicate sales solutions and improve customer satisfaction.
+                                    </li>
+                                    <li>
+                                        • Analyzed and identified voids in route frequency.
+                                    </li>
+                                    <li>
+                                        • Managed a Point-of-Sale inventory.
+                                    </li>
+                                    <li>
+                                        • Forecast and order product daily.
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li class="resume-item"><span class="name">Merchandiser</span><span class="episode">Jan
+                                2018</span><span class="description"> Self Employed
+                                <ul>
+                                    <li>
+                                        • Merchandised store displays to ensure proper inventory, pricing, and date code
+                                        rotation.
+                                    </li>
+                                    <li>
+                                        • Managed routes upward of 30 different accounts.
+                                    </li>
+                                    <li>
+                                        • Implemented strategy that contributed to sales increases.
+                                    </li>
+                                    <li>
+                                        • Initiated an individual project to combat out of stock items.
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li class="resume-item"><span class="name">Customer Serivce Specialist</span><span
+                                class="episode">Nov
+                                2016</span><span class="description"> Dicks Sporting Goods
+                                <ul>
+                                    <li>
+                                        • Creatively solved customer issues and provided resolutions to achieve the
+                                        highest level of customer satisfaction.
+                                    </li>
+                                    <li>
+                                        • Coordinated with other departments or leaders as business needs arise.
+                                    </li>
+                                    <li>
+                                        • Trained new employees.
+                                    </li>
+                                    <li>
+                                        • Lead teams of 5+ cashiers and meet the standards of the front end.
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li class="resume-item"><span class="name">Front Desk</span><span class="episode">Dec
+                                2015</span><span class="description">Clubsport</span></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="resume-group">
+                <section  id="education">
+                    <h3>Education</h3>
+                    <ul class="resume-list">
+                        <li class="resume-item"><span class="name">California State University, East Bay</span><span
+                                class="episode">Dec 2022</span><span class="description">B.S Computer Science</span>
+                        </li>
+                        <li class="resume-item"><span class="name">Diablo Valley College</span><span class="episode">Dec
+                                2018</span><span class="description"> Advance C++ Programming Certificate of Achievment
+                            </span></li>
+                        <li class="resume-item"><span class="name">Northgate High School</span><span class="episode">Jun
+                                2016</span></li>
+                        <div class="callout callout-style-2" id="ReleventCourses">
+                            <h4>Relevent Courses</h4>
+                            <ul>
+                                <li class="resume-item"><span class="name">Data Structures and Algorithms </span><span
+                                        class="episode">Spring 2022</span><span class="description">Design and
+                                        implementation of abstract data structures including stacks, queues,
+                                        doubly-linked and circularly-linked lists, binary search trees, heaps, priority
+                                        queues and graphs; algorithmic analysis and asymptotic notation; binary search,
+                                        heapsort, merge sort, quicksort, and radix sort. </span></li>
+                                <li class="resume-item"><span class="name">Website Development</span><span
+                                        class="episode">Summer 2021</span><span class="description">Website development
+                                        emphasizing presentation layer with client side and server side technologies.
+                                        Topics covered include HTML, CSS, media, JavaScript, CGI server-side
+                                        programming. </span></li>
+                                <li class="resume-item"><span class="name">Operating Systems</span><span
+                                        class="episode">Fall 2022</span>
+                                </li>
+                                <li class="resume-item"><span class="name">Mobile Programming</span><span
+                                        class="episode">Fall 2022</span>
+                                </li>
+                                <li class="resume-item"><span class="name">Software Engineering</span><span
+                                        class="episode">Fall 2022</span>
+                                </li>
+                                <li class="resume-item"><span class="name">Linux Programming</span><span
+                                        class="episode">Fall 2022</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </section>
+            </div>
+            <div class="resume-group wide">
+                <section id="projects">
+                    <h3>Projects</h3>
+                    <div class="container">
+                        <ul class="resume-list">
+
+                            <li class="resume-item"><span class="name">Image Maker</span><span
+                                    class="episode">C++</span><span class="description"> Program that loads, creates,
+                                    saves, and draws ppm images.
+                                    Utilizes three dimensional matrices to store the RGB values of each image.
+                                    Used Git for version.
+                                </span></li>
+
+                            <li class="resume-item"><span class="name">Chunklist</span><span
+                                    class="episode">C++</span><span class="description"> Stores integers in arrays that
+                                    are attached via linked lists.
+                                    Each array holds 10 integers and creates a new linked list when full.
+                                    The program can append, remove, return index, return length and search.
+
+                                </span></li>
+
+                            <li class="resume-item"><span class="name">Set Type</span><span
+                                    class="episode">C++</span><span class="description"> Implemented a set using forward
+                                    lists to create “Buckets” of data.
+                                    Data is stored in buckets using a hash function figure out where it belongs.
+                                    Implemented operator overloading and unit testing.
+                                </span></li>
+
+                            <div class="callout callout-style-4" id="tateomerch">
+                                <h4><a href="https://tateomerch.com">Tateomerch</a></h4>
+                                <li class="resume-item"><span class="description"> Django
+                                        web app designed and created by myself. Used to track and analyze
+                                        merchandising data to help direct store delivery companies better supply their
+                                        customers.
+                                    </span></li>
+                                <li class="resume-item"><span class="name">Django/Python</span><span
+                                        class="description">Using
+                                        Django Framework helped speed up the development process by handling most of
+                                        common tasks, so I could focus building the application.
+                                    </span></li>
+                                <li class="resume-item"><span class="name">HTML</span><span class="description">Structured
+                                        front end design.</span></li>
+                                <li class="resume-item"><span class="name">CSS</span><span class="description">Style and
+                                        layout.</span></li>
+                                <li class="resume-item"><span class="name">Django Rest Framework</span><span
+                                        class="description">Used to create APIs which will soon be the backend of Merch
+                                        Manager.</span></li>
+                                <li class="resume-item"><span class="name">Javascript</span><span
+                                        class="description">Forms and buttons.</span></li>
+                                <li class="resume-item"><span class="name">Cloudinary</span><span
+                                        class="description">Image bucket.</span></li>
+                                <li class="resume-item"><span class="name">SQLite</span><span
+                                        class="description">Merchandise, Store, Location, Time, Date, and User data
+                                        stored in database.</span></li>
+                                <li class="resume-item"><span class="name">Render.com</span><span
+                                        class="description">Cloud hosting.</span></li>
+                            </div>
+                        </ul>
+                        <ul class="resume-list">
+                            <div class="callout callout-style-2" id="merch_manager">
+                                <h4><a href="https://Github.com">Merch Manager</a></h4>
+                                <li class="resume-item"><span class="name">Swift</span><span class="description">Merch
+                                        Manager is an IOS application intended for use with Tateomerch.com. The app
+                                        handles the essential operations for merchandisers.</span></li>
+                                <li class="resume-item"><span class="name">Firebase</span><span class="description">The
+                                        app uses Firebase for Authentication and storing user data.</span></li>
+                                <li class="resume-item"><span class="name">Core Data</span><span class="description">The
+                                        App uses Core Data to store location and account information.</span></li>
+                            </div>
+
+                            <li class="resume-item"><span class="name">Producer-Consumer</span><span
+                                    class="episode">C</span><span class="description"> Program which implements a
+                                    multiple producer -
+                                    multiple consumer environment.
+                                </span></li>
+                            <li class="resume-item"><span class="name">Stock Analysis Application</span><span
+                                    class="episode">Java</span><span class="description">Stock exchange
+                                    simulator.</span></li>
+                            <li class="resume-item"><span class="name">DVD Manager Application</span><span
+                                    class="episode">Java</span><span class="description">Program which manages DVDs with
+                                    a GUI.</span></li>
+                            <li class="resume-item"><span class="name">GTShell</span><span class="episode">C</span><span
+                                    class="description">Created my own shell in C.</span></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="gino_tateo">
+                <h4>Gino Tateo</h4>
+                <ul class="partner-group">
+                    <li class="partner">Softare Engineer</li>
+                    <li class="partner">gino@tateo.io</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+            <p>Made with <span class="emoji">💙</span> by <a href="https://tateo.io">Gino Tateo</a></p>
+        </footer>
+
+</body>
+
+</html>
