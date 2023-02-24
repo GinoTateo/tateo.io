@@ -14,8 +14,8 @@ def resume():
 
 
 @app.route('/projects')
-def resume():
-    return render_template('projects.html')
+def projects():
+    return render_template('resume.html')
 
 
 if __name__ == '__main__':
