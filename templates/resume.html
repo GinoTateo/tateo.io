@@ -17,11 +17,14 @@
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename= 'favicon.ico') }}">
 </head>
 
+<script src="js/scripts.js"></script>
+
 <body class="landing">
     <div class="container">
         <nav class="nav-main "><a id="back_button" href="/">Back</a><a id="pdf_button"
-                href="{{ url_for('static', filename= 'Gino-Tateo-Resume-V8.pdf') }}">PDF</a><a id="pdf_button"
-                href="{{ url_for('static', filename= 'Gino-Tateo-Resume-V8.docx') }}">Download</a></nav>
+                <a id="pdfButton" href="{{ url_for('static', filename= 'Gino-Tateo-Resume-V8.pdf') }}">PDF</a>
+                <a id="downloadButton" href="{{ url_for('static', filename= 'Gino-Tateo-Resume-V8.docx') }}">Download</a>
+        </nav>
         <header class="hero">
             <h1>Gino Tateo</h1>
             <p>Software Engineer</p><small>★ ★ ★</small>
@@ -34,7 +37,7 @@
                     <h3>Work</h3>
                     <ul class="resume-list">
                         <li class="resume-item"><span class="name">Warehouse Manager</span><span
-                                class="episode">Jun 2022</span><span class="description"> Peet's Coffee & Tea
+                                class="episode">Jun 2023</span><span class="description"> Peet's Coffee & Tea
                                 <ul>
                                     <li>
                                         • Led a team of 3 warehouse associates in a fast-paced warehouse, ensuring smooth operations and adherence to quality standards.
@@ -241,5 +244,8 @@
         </footer>
 
 </body>
+
+
+
 
 </html>
