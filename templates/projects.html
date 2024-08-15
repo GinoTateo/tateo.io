@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Projects</title>
+
+    <!-- Importing the main stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/tateoio.css') }}">
+
+    <!-- Google Fonts Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="parallax-container">
+    <h1>My Projects</h1>
+</div>
+
+<div class="buffer"></div>
+
+<div class="parallax-container2">
+    <div class="card">
+        <div class="card-img" style="background-image: url(../images/githubimg.jpg);"></div>
+        <div class="cardop">
+            <h3>Inventory Management System</h3>
+            <p>A Django-based inventory management extension.</p>
+            <a href="https://github.com/yourusername/inventory-management-system" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img" style="background-image: url(../images/githubimg.jpg);"></div>
+        <div class="cardop">
+            <h3>Nicoles Closet</h3>
+            <p>An e-commerce platform built with Django and React, featuring a shopping cart, product listings, and payment integration. Initially built for my sister
+            to help manage her Poshmark inventory.</p>
+            <a href="https://github.com/GinoTateo/nicolesclosetfrontend" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img" style="background-image: url(../images/githubimg.jpg);"></div>
+        <div class="cardop">
+            <h3>Personal Portfolio</h3>
+            <p>A personal portfolio website showcasing my projects, skills, and experience. Built with Flask, HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/GinoTateo/tateo.io" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="buffer"></div>
+</body>
+</html>
