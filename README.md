@@ -18,14 +18,12 @@ Welcome to **Tateo.io**, my personal portfolio showcasing my work as a full-stac
   - HTML5
   - CSS3
   - JavaScript (ES6+)
-  - React.js (if applicable)
 - **Backend**: 
-  - Python (Django/Flask) or Node.js (Express)
-  - SQL/NoSQL Databases (PostgreSQL, MongoDB)
+  - Python (Django/Flask)
 - **Version Control**: 
   - Git & GitHub for source control and deployment
 - **Deployment**: 
-  - Hosted on AWS (EC2, S3) or other cloud platforms
+  - Hosted on Render.com
 
 ## Sections
 
@@ -80,7 +78,7 @@ If you're interested in how this portfolio was built or want to contribute, here
 
 ## Future Plans
 
-- **Portfolio Enhancements**: I’m continuously adding new projects and enhancing the existing ones. Upcoming features include more in-depth tutorials, open-source contributions, and integrations with third-party APIs.
+- **Portfolio Enhancements**: I’m continuously adding new projects and enhancing the existing ones.
 - **Car Project Expansion**: More updates and content about my 2003 Lexus GS300 2JZ-GE project, including detailed write-ups on modifications, performance upgrades, and lessons learned.
 
 ## Contact
