@@ -85,8 +85,4 @@ If you're interested in how this portfolio was built or want to contribute, here
 
 Have questions or want to work together? Feel free to reach out via the contact form on the website or directly at TateoGino@gmail.com.
 
----
-
-### Note:
-You can customize the content based on the exact technologies and setup you use for your portfolio. This README assumes your portfolio includes both technical projects and personal updates related to your car project. Feel free to modify it to fit your style and tools.
 
